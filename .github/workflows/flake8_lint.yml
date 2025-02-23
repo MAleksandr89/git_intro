@@ -1,4 +1,4 @@
-name: flake8 Lint
+name: Проверка линтера Python
 
 on: [push, pull_request]
 
