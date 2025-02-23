@@ -1,0 +1,6 @@
+repos:
+  - repo: "https://github.com/pycqa/flake8"
+    rev: "7.1.2"
+    hooks:
+      - id: "flake8"
+        args: ["--exclude", ".venv", "--max-line-length=100"]
